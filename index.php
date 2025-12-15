@@ -33,7 +33,7 @@ if( isset($_SESSION['user']) ){
 				<button type="submit" name="btn-login" style="width: 100%;"> Login sekarang </button>
 			</div>
 			<p> Masuk dengan no pelanggan jika anda sebagai pelanggan. </p>
-		</form>
+		            <p style="margin-top: 10px;"> Belum punya akun? <a href="registrasi.php">Daftar</a> </p>`r`n</form>
 	</div>
 </div>
 </body>

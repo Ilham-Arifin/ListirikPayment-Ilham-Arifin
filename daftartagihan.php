@@ -184,6 +184,7 @@ $sql = mysqli_query($connect, "SELECT * FROM tbtagihan WHERE noPelanggan = '$noP
 </div>
 <script type="text/javascript" src="script.js"></script> 
 </body>
+<?php include 'footer.php'; ?>
 </html>
 <?php 
 

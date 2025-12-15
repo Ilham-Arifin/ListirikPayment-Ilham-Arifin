@@ -159,6 +159,7 @@ if( isset($kodePelanggan) ){
 </div>
 <script type="text/javascript" src="script.js"></script>
 </body>
+<?php include 'footer.php'; ?>
 </html>
 <?php 
 

@@ -180,6 +180,7 @@ $sql = mysqli_query($connect, "SELECT * FROM tbtagihan WHERE kodeTagihan = '$kod
 </div>
 <script type="text/javascript" src="script.js"></script>
 </body>
+<?php include 'footer.php'; ?>
 </html>
 <?php 
 

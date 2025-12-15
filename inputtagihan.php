@@ -74,7 +74,7 @@ if( !isset($_SESSION['user']) ){
 			<div class="delimiter">
 				<h1 style="margin-top: 35px"> Cari Tagihan </h1>
 				<p class="error"></p>
-				<form method="GET" action="daftartagihan.php?nopelanggan=<?php echo $_GET['nopelanggan'] ?>" style="margin-top: 25px">
+				<form method="GET" action="daftartagihan.php<?php echo isset($_GET['nopelanggan']) ? '?nopelanggan=' . htmlspecialchars($_GET['nopelanggan']) : ''; ?>" style="margin-top: 25px">
 					<div class="winput bflex tag">
 						<span> No<font style="color: #fff">_</font>Pelanggan </span>
 						<?php if( $_SESSION['level'] != "Pelanggan" ){ ?>
@@ -94,4 +94,5 @@ if( !isset($_SESSION['user']) ){
 </div>
 <script type="text/javascript" src="script.js"></script>
 </body>
+<?php include 'footer.php'; ?>
 </html>

@@ -83,5 +83,12 @@ if( !isset($_SESSION['user']) ){
 	</div>
 </div>
 <script type="text/javascript" src="script.js"></script>
+<div class="footer">
+    <div class="footer-content">
+        <p>&copy; <?php echo date('Y'); ?> ILHAM ARIFIN</p>
+        <p>221011400745</p>
+    </div>
+</div>
 </body>
+
 </html>
