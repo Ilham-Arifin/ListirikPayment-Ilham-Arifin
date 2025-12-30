@@ -57,7 +57,7 @@ if( !isset($_SESSION['user']) ){
 				<img src="image/logo.png">
 			</a>
 			<div class="title-user">
-				<span> <?php echo $_SESSION['level'] ?> </span>
+				<span> <?php echo $_SESSION['namaLengkap'] ?> </span>
 			</div>
 		</div>
 		<div class="wrapper" style="padding-bottom: 0px">
